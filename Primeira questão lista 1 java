@@ -1,0 +1,10 @@
+package questoes;
+
+public class Primeira {
+
+	public static void main(String[] args) {
+		System.out.println("téo costa  1362321634");
+
+	}
+
+}

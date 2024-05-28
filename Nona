@@ -1,0 +1,17 @@
+package questoes;
+
+public class Nona {
+
+	public static void main(String[] args) {
+		int A = 8;
+		int B = 7;
+		int C = 6;
+
+		int soma = A + B + C / 3;
+		int media = soma / 3;
+
+		System.out.println("a media é :" + media);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package questoes;
+
+import java.util.Scanner;
+
+public class Vinte_Dois {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite um angulo de 0 a 360");
+		Double angulo = sc.nextDouble();
+
+		int Quadrante = determinarQuadrante(angulo);
+		System.out.println("O vetor esta no" + Quadrante + "º quadrante.");
+		sc.close();
+
+	}
+
+	private static int determinarQuadrante(Object angulo) {
+
+		return 0;
+	}
+
+}

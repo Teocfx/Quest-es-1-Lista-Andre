@@ -1,0 +1,21 @@
+package questoes;
+
+public class Decima {
+
+	public static void main(String[] args) {
+		int A = 8;
+		int B = 5;
+		int C = 6;
+
+		int resultado = A + B + C / 3;
+
+		if (resultado > 7) {
+			System.out.println("aluno aprovado");
+		}
+
+		else
+			System.out.println(" aluno reprovado");
+
+	}
+
+}

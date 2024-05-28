@@ -1,0 +1,37 @@
+package questoes;
+
+import java.util.Scanner;
+
+public class Doze {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite o angulo");
+		double angulo = sc.nextDouble();
+
+		int Quadrante = determinarQuadrante(angulo);
+		System.out.println("O vetor esta no" + Quadrante + "º quadrante.");
+
+		sc.close();
+	}
+
+	private static int determinarQuadrante(double angulo) {
+		angulo = angulo % 360;
+
+		if (angulo < 0) {
+			angulo += 360;
+		}
+
+		if (angulo >= 0 && angulo < 90) {
+			return 1;
+		} else if (angulo >= 90 && angulo < 180) {
+			return 2;
+		} else if (angulo >= 180 && angulo < 270) {
+			return 3;
+		} else {
+			return 4;
+		}
+	}
+
+}

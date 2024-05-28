@@ -1,0 +1,21 @@
+package questoes;
+
+public class Sétima {
+
+	public static void main(String[] args) {
+		
+		int A = 20;
+		int B = 15;
+         
+		int resultado = A % B;
+		
+		if ( resultado/ 2 == 0 ) { System.out.println("O número é par");
+		}
+            
+		else System.out.println("O numero é impar");
+		
+		
+		
+		
+}
+}

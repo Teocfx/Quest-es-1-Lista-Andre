@@ -1,0 +1,18 @@
+package questoes;
+
+public class Sexta {
+
+	public static void main(String[] args) {
+		int A = 25;
+		int B = 45;
+		
+		if (A == B) {
+		System.out.println("Os numeros são iguais");
+		}
+		else System.out.println(" os numeros sao diferentes");
+		
+		
+
+	}
+
+}

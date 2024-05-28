@@ -1,0 +1,26 @@
+package questoes;
+
+import java.util.Scanner;
+
+public class Vinte {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite um número:");
+		int A = sc.nextInt();
+
+		System.out.println("Digite outro número:");
+		int B = sc.nextInt();
+
+		if (A > B) {
+			System.out.println("O número A é maior: " + A);
+		} else if (B > A) {
+			System.out.println("O número B é maior: " + B);
+		} else {
+			System.out.println("Os números são iguais.");
+		}
+
+		sc.close();
+	}
+}

@@ -1,0 +1,23 @@
+package questoes;
+
+import java.util.Scanner;
+
+public class Treze {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int Numerointeiro;
+		System.out.println(" Digite um numero inteiro");
+		Numerointeiro = sc.nextInt();
+		
+		System.out.println("Voce digitou um numero "+ Numerointeiro);
+		
+		sc.close();
+		
+		
+	
+
+	}
+
+}

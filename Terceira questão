@@ -1,0 +1,15 @@
+package questoes;
+
+public class Terceira {
+
+	public static void main(String[] args) {
+		int Altura = 10;
+		int Base = 20;
+		
+		int resultado = Altura * Base;
+		
+		System.out.println("Área é " + resultado);
+
+	}
+
+}

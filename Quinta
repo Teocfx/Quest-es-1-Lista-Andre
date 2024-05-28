@@ -1,0 +1,15 @@
+package questoes;
+
+public class Quinta {
+
+public static void main(String[] args) {
+    int A = 5;
+    int B = 10;
+    
+    int resto = A % B;
+    
+    System.out.println("O resto da divisão de " + A + " por " + B + " é " + resto);
+
+
+}
+}

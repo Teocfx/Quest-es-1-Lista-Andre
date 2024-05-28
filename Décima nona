@@ -1,0 +1,30 @@
+package questoes;
+
+import java.util.Scanner;
+
+public class Dezenove {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite um número:");
+		int numero1 = sc.nextInt();
+
+		System.out.println("Digite outro número:");
+		int numero2 = sc.nextInt();
+
+		if (numero1 % 2 == 0) {
+			System.out.println("O número " + numero1 + " é par");
+		} else {
+			System.out.println("O número " + numero1 + " é ímpar");
+		}
+
+		if (numero2 % 2 == 0) {
+			System.out.println("O número " + numero2 + " é par");
+		} else {
+			System.out.println("O número " + numero2 + " é ímpar");
+
+			sc.close();
+		}
+
+	}
+}
